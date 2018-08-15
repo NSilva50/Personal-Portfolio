@@ -1,15 +1,57 @@
-<div><!--Navigation/Header. Only applicable for future additional pages.-->
-  <nav>
-
-  </nav>
-</div>
-<img src="" alt=""><!--Main image-->
-<router-outlet></router-outlet><!--Page loaded(Default is Bio of me)-->
-<div><!--Thumbnails to recent work-->
-
-</div>
-<div> <!--Social media/contact information-->
-  <footer>
-
-  </footer>
+<div class="container-fluid">
+  <app-home></app-home>
+  <div class="row justify-content-around altnav">
+    <div class="col-2 offset-1">Home</div>
+    <div class="col-2">Portfolio</div>
+    <div class="col-2">About Me</div>
+    <div class="col-2">My Skills</div>
+    <div class="col-2">Associates</div>
+  </div>
+  <!-- Thumbnails of current work. -->
+  <div class="row">
+    <div class="col-4">
+      <a href=""><img src="" alt=""></a>
+    </div>
+    <div class="col-4">
+      <a href=""><img src="" alt=""></a>
+    </div>
+    <div class="col-4">
+      <a href=""><img src="" alt=""></a>
+    </div>
+  </div>
+  <!-- skills -->
+  <div class="row">
+    <div class="col-3">
+      <a href=""><img src="" alt=""></a>
+    </div>
+    <div class="col-3">
+      <a href=""><img src="" alt=""></a>
+    </div>
+    <div class="col-3">
+      <a href=""><img src="" alt=""></a>
+    </div>
+    <div class="col-3">
+      <a href=""><img src="" alt=""></a>
+    </div>
+  </div>
+  <!-- associates -->
+  <div class="row">
+    <div class="col-3">
+      <a href=""><img src="" alt=""></a>
+    </div>
+    <div class="col-3">
+      <a href=""><img src="" alt=""></a>
+    </div>
+    <div class="col-3">
+      <a href=""><img src="" alt=""></a>
+    </div>
+    <div class="col-3">
+      <a href=""><img src="" alt=""></a>
+    </div>
+  </div>
+  <div class="row fixed-bottom altnav">
+    <div class="col-2 offset-10">
+      Designed by Cruz Ramirez
+    </div>
+  </div>
 </div>

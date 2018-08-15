@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { BioComponent } from './bio/bio.component';
 
 const appRoutes: Routes = [
   {
@@ -17,7 +18,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,
@@ -29,3 +31,5 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+// Remember Alex!!!!! (important)
