@@ -7,6 +7,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BioComponent } from './bio/bio.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ThumbnailsComponent } from './thumbnails/thumbnails.component';
 
 const appRoutes: Routes = [
   {
@@ -19,7 +21,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    BioComponent
+    BioComponent,
+    SkillsComponent,
+    ThumbnailsComponent
   ],
   imports: [
     BrowserModule,
