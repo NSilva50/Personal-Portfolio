@@ -7,6 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThumbnailsComponent implements OnInit {
 
+  img: object[] = [
+    {
+      class: "carousel-item active",
+      bg: "...",
+      text: "Sorry, coming soon!",
+    },
+    {
+      class: "carousel-item",
+      bg: "...",
+      text: "Sorry, coming soon!",
+    },
+    {
+      class: "carousel-item",
+      bg: "...",
+      text: "Sorry, coming soon!"
+    }
+  ];
+  
   constructor() { }
 
   ngOnInit() {
