@@ -1,11 +1,19 @@
 <app-home></app-home>
-<div style="background: black">
+<div style="background-color: black;">
   <div class="container">
-    <div class="row justify-content-around altnav">
-      <div class="col-2 offset-1">Home</div>
-      <div class="col-2">About Me</div>
-      <div class="col-2">My Skills</div>
-      <div class="col-2">My Work</div>
+    <div class="row justify-content-around midnav">
+      <div class="col-2 offset-1">
+        <a routerLink="/home">Home</a>
+      </div>
+      <div class="col-2">
+        <a routerLink="/bio">About Me</a>
+      </div>
+      <div class="col-2">
+        <a routerLink="/skills">My Skills</a>
+      </div>
+      <div class="col-2">
+        <a routerLink="/thumbnails">My Work</a>
+      </div>
     </div>
     <app-bio></app-bio>
     <app-skills></app-skills>

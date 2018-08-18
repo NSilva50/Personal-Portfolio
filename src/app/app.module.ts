@@ -12,8 +12,20 @@ import { ThumbnailsComponent } from './thumbnails/thumbnails.component';
 
 const appRoutes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'bio',
+    component:  BioComponent
+  },
+  {
+    path: 'skills',
+    component: SkillsComponent
+  },
+  {
+    path: 'thumbnails',
+    component: ThumbnailsComponent
   },
 ];
 

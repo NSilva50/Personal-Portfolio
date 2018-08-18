@@ -1,0 +1,13 @@
+.row {
+    padding: 15px;
+}
+
+h4 {
+    color: darkblue;
+}
+
+img {
+    border-radius: 75px;
+    width: 225px;
+    height: 175px;
+}

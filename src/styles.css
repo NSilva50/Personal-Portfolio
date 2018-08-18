@@ -1,4 +1,9 @@
 .altnav {
     background-color: black;
+    color: darkmagenta;
+}
+
+.midnav {
+    background-color: black;
     color: white;
 }
