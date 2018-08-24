@@ -1,9 +1,6 @@
-.altnav {
-    background-color: black;
-    color: darkmagenta;
-}
-
-.midnav {
-    background-color: black;
-    color: white;
+#chalky {
+    background-image: url("../src/assets/chalk-bg.jpg");
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
 }
