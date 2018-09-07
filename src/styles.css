@@ -1,6 +1,7 @@
-#chalky {
+body {
     background-image: url("../src/assets/chalk-bg.jpg");
     background-position: center;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
