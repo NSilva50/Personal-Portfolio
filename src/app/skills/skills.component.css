@@ -2,12 +2,8 @@
     padding: 15px;
 }
 
-h4 {
-    color: darkblue;
-}
-
 img {
-    border-radius: 75px;
+    border-radius: 50%;
     width: 225px;
     height: 175px;
 }
