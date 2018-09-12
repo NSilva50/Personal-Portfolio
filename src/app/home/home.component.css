@@ -1,14 +1,13 @@
-.row {
-    color: white;
-}
-.header-bg {
+#header-bg {
     background-image: url("../../assets/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100vw;
+    /* width: 100vw; */
     height: 250px;
+
 }
-h3 {
-    padding: 100px 0px 100px 50px;
+
+h2 {
+    padding-top: 100px;
 }

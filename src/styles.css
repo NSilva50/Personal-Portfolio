@@ -1,7 +1,7 @@
 body {
-    background-image: url("../src/assets/chalk-bg.jpg");
+    background-color: #A34A5A;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: #131010;
 }
