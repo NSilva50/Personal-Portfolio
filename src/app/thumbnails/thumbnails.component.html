@@ -1,20 +1,35 @@
-<div id="thumbnailImg" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div *ngFor="let item of img" class="{{ item.class }}">
-      <img src="{{ item.bg }}" alt="{{ item.text }}">
+<div class="thumbnail">
+  <div class="row">
+    <div class="col-6">
+      <div id="thumbnailImg" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div *ngFor="let item of img" class="{{ item.class }}">
+            <img src="{{ item.bg }}" alt="{{ item.text }}">
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#thumbnailImg" data-slide-to="0" class="active"></li>
+            <li data-target="#thumbnailImg" data-slide-to="1"></li>
+            <li data-target="#thumbnailImg" data-slide-to="2"></li>
+        </ol>
+        <a class="carousel-control-prev" data-target="#thumbnailImg" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" data-target="#thumbnailImg" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-6">
+      <h2>
+        Previous Work
+      </h2>
+      <p>
+        To the left are a few projects I have been involved with. <br>
+        They vary from wordpress websites to angular applications.
+      </p>
     </div>
   </div>
-  <ol class="carousel-indicators">
-      <li data-target="#thumbnailImg" data-slide-to="0" class="active"></li>
-      <li data-target="#thumbnailImg" data-slide-to="1"></li>
-      <li data-target="#thumbnailImg" data-slide-to="2"></li>
-  </ol>
-  <a class="carousel-control-prev" data-target="#thumbnailImg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" data-target="#thumbnailImg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>

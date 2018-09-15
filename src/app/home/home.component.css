@@ -1,13 +1,10 @@
-#header-bg {
-    background-image: url("../../assets/header-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* width: 100vw; */
-    height: 250px;
-
+.header-bg {
+    background-color: black;
+    padding: 125px;
 }
-
-h2 {
-    padding-top: 100px;
+h3 {
+    color: purple;
+}
+a {
+    color: purple;
 }

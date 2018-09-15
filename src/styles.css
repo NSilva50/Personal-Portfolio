@@ -1,7 +1,8 @@
 body {
-    background-color: #A34A5A;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #131010;
+    background-color: gray;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
