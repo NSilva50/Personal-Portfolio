@@ -10,18 +10,21 @@ export class ThumbnailsComponent implements OnInit {
   img: object[] = [
     {
       class: "carousel-item active",
-      bg: "...",
+      bg: "../assets/pocketpark.png",
       text: "Sorry, coming soon!",
+      link: "http://pocketpark.cameronleeritchie.com/"
     },
     {
       class: "carousel-item",
       bg: "...",
       text: "Sorry, coming soon!",
+      link: "#",
     },
     {
       class: "carousel-item",
       bg: "...",
-      text: "Sorry, coming soon!"
+      text: "Sorry, coming soon!",
+      link: "#"
     }
   ];
   

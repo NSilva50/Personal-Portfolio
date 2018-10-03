@@ -1,9 +1,20 @@
-.row {
-    padding: 15px;
-}
-
 img {
     border-radius: 50%;
-    width: 225px;
-    height: 175px;
 }
+
+/* Responsiveness */
+    @media only screen and (max-width: 576px){
+        
+    }
+    @media only screen and (min-width: 577px), screen and (max-width: 992px){
+        
+    } 
+    @media only screen and (min-width: 993px) {
+        #skill {
+            padding: 50px 0px 25px 0px;            
+        }
+        img {
+            padding: 0px 0px 50px 0px;
+        }
+    }
+/*  */

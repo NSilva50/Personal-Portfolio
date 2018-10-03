@@ -1,6 +1,20 @@
-#thumbnailImg {
-    height: 300px;
-    font-size: 48px;
-    color: black;
-    background-color: gainsboro;
-}
+/* Responsiveness */
+    @media only screen and (max-width: 576px){
+            
+    }
+    @media only screen and (min-width: 577px), screen and (max-width: 992px){
+        
+    } 
+    @media only screen and (min-width: 993px) {
+        #thumbnailImg {
+            height: 300px;
+            font-size: 48px;
+            color: black;
+            background-color: gainsboro;
+        }
+        img {
+            height: 300px;
+            width: 100%;
+        }
+    }
+/*  */

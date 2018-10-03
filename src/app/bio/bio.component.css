@@ -1,3 +1,27 @@
-.bio {
-    padding: 50px 0px 50px 0px;
+.myFace {
+    border-radius: 50%;
 }
+
+/* Responsiveness */
+    /* @media only screen and (max-width: 576px){
+        .myFace {
+            width: 50px;
+            height: 65px;
+        }
+        .description {
+            font-size: 6px;
+        }
+    }
+    @media only screen and (min-width: 577px), screen and (max-width: 992px){
+        
+    } */
+    @media only screen and (min-width: 993px) {
+        #bio {
+            padding: 50px 0px 50px 0px;
+        }
+        .description {
+            padding: 15px 0px 0px 30px;
+            font-size: 24;
+        }
+    }
+/*  */
